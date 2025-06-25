@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Beatriz Cleaning Services</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      font-family: 'Roboto', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(to bottom right, #e0f7fa, #ffffff);
+      color: #333;
+    }
+    header {
+      background: linear-gradient(to right, #00bcd4, #1e88e5);
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    }
+    header h1 { margin: 0; font-size: 3em; }
+    nav {
+      background-color: #0d47a1;
+      color: white;
+      padding: 15px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 20px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s ease;
+    }
+    nav a:hover { color: #ffeb3b; }
+    .content {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+    .cta, .contact-section {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+      padding: 30px;
+      margin-bottom: 30px;
+    }
+    .cta h2, .contact-section h2 {
+      color: #1e88e5;
+      font-size: 2em;
+      margin-top: 0;
+    }
+    .cta ul { padding-left: 20px; }
+    .cta ul li { margin-bottom: 10px; line-height: 1.6; }
+    .contact-section p {
+      font-size: 1.1em;
+      margin: 10px 0;
+      line-height: 1.6;
+    }
+    .contact-section a {
+      color: #0d47a1;
+      text-decoration: none;
+    }
+    .contact-section a:hover {
+      text-decoration: underline;
+    }
+    .contact-section .intro {
+      margin-bottom: 20px;
+      font-size: 1.1em;
+    }
+    footer {
+      background-color: #1e88e5;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      font-size: 0.9em;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Beatriz Cleaning Services</h1>
+    <p>Professional & Reliable Home and Office Cleaning</p>
+  </header>
+
+  <nav>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <div class="content">
+    <section id="services">
+      <div class="cta">
+        <h2>Our Services</h2>
+        <ul>
+          <li>Residential Cleaning – Sparkling kitchens, bathrooms, bedrooms and more.</li>
+          <li>Commercial Cleaning – Offices, retail stores, and business spaces cleaned to perfection.</li>
+          <li>Deep Cleaning – A thorough top-to-bottom clean for your home or workspace.</li>
+          <li>Move In/Move Out Cleaning – Ideal for landlords, renters, and homeowners.</li>
+          <li>Customized Cleaning Plans – Tailored to meet your schedule and needs.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="contact-section">
+        <h2>Get in Touch</h2>
+        <p class="intro">We’re here to make your space shine. Whether you have a question about services, pricing, or availability, our team is ready to help!</p>
+        <p><strong>Phone:</strong> <a href="tel:9783331755">978-333-1755</a></p>
+        <p><strong>Email:</strong> <a href="mailto:biausa0915@gmail.com">biausa0915@gmail.com</a></p>
+        <p><strong>Owner:</strong> Beatriz da Silva</p>
+        <p><strong>Note:</strong> Please message us via phone or email to schedule an appointment. All services are scheduled by request only.</p>
+      </div>
+    </section>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Beatriz Cleaning Services. All rights reserved.</p>
+  </footer>
+</body>
+</html>
